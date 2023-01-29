@@ -29,7 +29,11 @@ function genDivs(v){
  
   function hoverEvent(e){
     target = e.target;
-    target.style.backgroundColor = "black";
+    r = Math.floor(Math.random()*256);
+    g = Math.floor(Math.random()*256);
+    b = Math.floor(Math.random()*256);
+    color = "rgb(" + r + ", " + g + ", " + b + ")";
+    target.style.backgroundColor = color;
   }
   changeGridSize();
   
