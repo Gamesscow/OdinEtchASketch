@@ -1,0 +1,7 @@
+.row{
+    display: flex;
+    flex-shrink: 0;
+}
+.row > .gridsquare{
+    background-color: rgb(97, 97, 97);
+}
